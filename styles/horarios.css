@@ -1,0 +1,41 @@
+
+#horarios{
+    width: 100%;
+    text-transform: uppercase;
+    color: var(--branco);
+    font-family: var(--fonte-fraunces);
+}
+
+table{
+    width: 70%;
+    height: 100%;
+    margin: 7em auto;
+    line-height: 3em;
+}
+
+#horarios caption{
+    margin-bottom: 4em;
+    font-size: 1.9rem;
+}
+
+table tr td:nth-child(even){
+    width: 70%;
+    margin: 0 1em;
+}
+
+.destaque{
+    color: var(--marrom-claro);
+    font-weight: bold;
+}
+
+table tr td:first-child{
+    text-align: start;
+    font-weight: bold;
+}
+
+table tr td:last-child{
+    text-align: end;
+}
+
+
+

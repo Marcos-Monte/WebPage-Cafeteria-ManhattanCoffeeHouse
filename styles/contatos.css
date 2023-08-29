@@ -1,0 +1,40 @@
+#contatos{
+    padding: 6em 0;
+    text-align: center;
+}
+
+#contatos h2{
+    color: var(--branco);
+    background-color: var(--marrom);
+    font-weight: bold;
+    padding: .5em 3em;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    display: inline-block;
+    font-family: var(--fonte-fraunces);
+}
+
+#contatos iframe{
+    width: 100%;
+    margin: 5em 0;
+}
+
+.contatos__box a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.contatos__box p:nth-child(even){
+    margin: 1em 0;
+}
+
+.contatos__box{
+    background-color: var(--marrom);
+    padding: 1.5em 2em;
+    color: var(--branco);
+    font-weight: bold;
+    text-shadow: .2rem .3rem var(--preto);
+    display: inline-block;
+    font-family: var(--fonte-oswald);
+}
+

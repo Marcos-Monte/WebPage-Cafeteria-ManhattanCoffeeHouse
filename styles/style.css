@@ -1,0 +1,37 @@
+@import url("/styles/cabecalho.css");
+@import url("/styles/conteiner.css");
+@import url("/styles/parallax.css");
+@import url("/styles/contatos.css");
+@import url("/styles/horarios.css");
+@import url("/styles/rodape.css");
+
+
+:root {
+    --marrom-claro: #c4a47c;
+    --branco: #fff;
+    --preto: #000000;
+    --marrom: #604829;
+    --cinza-escuro: #666;
+    --cinza-claro: #ACACAC;
+    --fonte-oswald: 'Oswald', sans-serif;
+    --fonte-fraunces: 'Fraunces', serif;
+    --fonte-lato:'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-width: 23.44rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.largura-tela {
+    max-width: 64rem;
+    margin: 0 auto;
+}

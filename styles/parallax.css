@@ -1,0 +1,62 @@
+.parallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.primeira{
+    height: 100vh;
+    background: url("/assets/parallax-imagem1.png") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--fonte-fraunces);
+}
+
+.segunda{
+    height: 60vh;
+    background: url("/assets/parallax-imagem2.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--fonte-fraunces);
+}
+
+.terceira{
+    height: 60vh;
+    background: url("/assets/parallax-imagem3.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--fonte-fraunces);
+}
+
+.quarta{
+    background: url("/assets/parallax-imagem4.png") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.quinta{
+    background: url("/assets/cafeteria.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#banner h1{
+    color: var(--branco);
+    font-size: 3.7rem;
+    text-transform: uppercase;
+
+}
+
+.parallax h3{
+    background-color: var(--marrom);
+    color: var(--branco);
+    font-style: italic;
+    padding: .5em 3em;
+    font-size: 1.5rem;
+}
