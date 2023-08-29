@@ -1,5 +1,5 @@
 .cabecalho{
-    width: 100vw;
+    width: 100%;
     background-color: var(--marrom);
     position: fixed;
     top: 0;
