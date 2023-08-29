@@ -1,9 +1,9 @@
-@import url("/styles/cabecalho.css");
-@import url("/styles/conteiner.css");
-@import url("/styles/parallax.css");
-@import url("/styles/contatos.css");
-@import url("/styles/horarios.css");
-@import url("/styles/rodape.css");
+@import url("styles/cabecalho.css");
+@import url("styles/conteiner.css");
+@import url("styles/parallax.css");
+@import url("styles/contatos.css");
+@import url("styles/horarios.css");
+@import url("styles/rodape.css");
 
 
 :root {
